@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capcom - EBAC</title>
+
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <img class="navbar-brand p-0" src="img/logo-capcom.png" alt="Logo da Capcom">
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#quem-somos" class="nav-link active">
+                            <i class="bi bi-house-fill"></i>
+                            Quem somos?
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-dpad-fill"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ultimas-noticias" class="nav-link">
+                            <i class="bi bi-newspaper"></i>
+                            Últimas notícias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="quem-somos">
+            <div class="carousel-container">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="img/capcom-re4-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/capcom-re4-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/exoprimal-capcom-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/exoprimal-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/megaman-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/megaman-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/mh-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/mh-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/re8-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/re8-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/sf-capcom-carousel.jpg" alt="Jogo Resident Evil 4" class="w-100 d-block">
+                            <img src="img/sf-logo-carousel.png" alt="logo do Resident Evil 4" class="logos">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/capcom-show.jpg" class="d-block w-100 rounded" alt="Show Capcom">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Quem <span class="text-colored">somos?</span></h2>
+                            <p class="fs-5">
+                                Capcom Co., Ltd. é uma desenvolvedora e publicadora japonesa de jogos eletrônicos sediada em Osaka. Ela é conhecida por ter criado franquias multimilionárias, tais como Resident Evil, Street Fighter, Mega Man, Devil May Cry, Dino Crisis e Onimusha. Sua sede principal está situada em Chuo-ku, Osaka. Fundada em 1983, ela passou a ser uma empresa internacional com divisões e subsidiárias na América do Norte, Europa, e Ásia Oriental.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored section-title text-center mb-5">
+                        Jogos
+                    </h2>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colunm nav-jogos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#resident-evil" class="fw-bold text-start nav-link text-colored active">Resident Evil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#monster-hunter" class="fw-bold text-start nav-link text-colored">Monster Hunter</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#street-fighter" class="fw-bold text-start nav-link text-colored">Street Fighter</button>
+                        </nav>
+                    </aside>
+                </div>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="resident-evil">
+                            <div class="row mt-5">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re1-capa.jpg" alt="Capa Resident Evil">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil</h5>
+                                    <p>
+                                        A história do game se passa em 1998, quando crimes bizarros começam a assolar a pequena Raccoon City. As vítimas, normalmente andarilhos e excursionistas que passam pela floresta nos arredores da cidade, são brutalmente assassinadas e seus corpos apresentam sinais de canibalismo e violência extrema.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re2-capa.jpg" alt="Capa Resident Evil 2">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 2</h5>
+                                    <p>
+                                        Resident Evil 2 conta a trágica história de Raccoon City, que começa alguns meses depois do Incidente da Mansão, onde os membros dos S.T.A.R.S. descobrem as atividades ilegais da Umbrella envolvendo a produção de armas biológicas com o uso do T-Virus.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re3-capa.jpg" alt="Capa Resident Evil 3">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 3</h5>
+                                    <p>
+                                        A história centra-se em Jill Valentine e em seus esforços para escapar de Raccon City, uma cidade completamente infectada com um novo tipo de arma biológica secreta desenvolvida pela empresa farmacêutica Umbrella Corporation.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re-cv-capa.jpg" alt="Capa Resident Evil Code: Veronica X">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil Code: Veronica X</h5>
+                                    <p>
+                                        Três meses após o incidente na cidade de Raccoon, Claire ainda está procurando por seu irmão desaparecido. Ela invade a matriz da Umbrella em Paris em busca de informações, mas acaba sendo capturada e levada para uma ilha sul-americana, chamada Rockfort, onde um vírus se espalha.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re0-capa.jpg" alt="Capa Resident Evil 0">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 0</h5>
+                                    <p>
+                                        Em 23 de julho de 1998 a divisão de elite do R.P.D, a S.T.A.R.S, time Bravo é enviada para investigar uma série de terríveis assassinatos nas Montanhas Arklay, região do município de Raccoon. No caminho para a cena, o helicóptero do esquadrão sofre uma pane e é forçado a fazer um pouso na floresta.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re4-capa.jpg" alt="Capa Resident Evil 4">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 4</h5>
+                                    <p>
+                                        A história segue o agente especial Leon S. Kennedy, que é enviado em uma missão para resgatar a filha do presidente dos Estados Unidos, Ashley Graham, que foi sequestrada por um culto religioso em uma parte rural da Espanha.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re5-capa.jpg" alt="Capa Resident Evil 5">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 5</h5>
+                                    <p>
+                                        A trama gira em torno da investigação dos agentes da B.S.A.A. Chris Redfield e Sheva Alomar de uma ameaça terrorista em Kijuju, uma região fictícia na África. Redfield logo descobre que precisará confrontar seu passado na forma de seu velho inimigo Albert Wesker e sua ex-parceira Jill Valentine.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re-rev-capa.jpg" alt="Capa Resident Evil Revelations">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil Revelations</h5>
+                                    <p>
+                                        Resident Evil Revelations é o quarto jogo da série lançado em um portátil da Nintendo. Mostra a história de Jill Valentine e seu parceiro da B.S.A.A. , Parker Luciani, na busca por Chris Redfield e Jessica Sherawat, desaparecidos após uma missão em um navio cruzeiro abandonado, Queen Zenobia.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re6-logo.jpg" alt="Capa Resident Evil 6">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 6</h5>
+                                    <p>
+                                        A história é contada a partir das perspectivas de Chris Redfield, membro e fundador da BSAA traumatizado por ter falhado em uma missão; Leon S. Kennedy, um sobrevivente de Raccoon City e agente especial do governo; Jake Muller, filho ilegítimo de Albert Wesker e associado de Sherry Birkin; e Ada Wong, uma agente solitária com ligações aos ataques bio-terroristas pela Neo-Umbrella.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re-rev2-capa.jpg" alt="Capa Resident Evil Revelations 2">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil Revelations 2</h5>
+                                    <p>
+                                        O agora conselheiro do esquadrão anti-bioterrorista BSAA segue em busca de sua filha em uma ilha abandonada, onde se depara com a misteriosa presença da garotinha Natalia Korda, a quem terá que proteger durante sua missão de resgate de Claire e Moira.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re7-capa.jpg" alt="Capa Resident Evil 7">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil 7</h5>
+                                    <p>
+                                        A história segue a busca do civil Ethan Winters por sua esposa Mia, que o leva a uma mansão agrícola aparentemente abandonada e habitada pela família Baker. Ethan faz uso de armas e ferramentas na luta contra os membros da família e os "Mofados", uma forma humanoide de bactéria.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/re8-capa.jpg" alt="Capa Resident Evil Village">
+                                    <h5 class="text-colored fw-bold mt-2">Resident Evil Village</h5>
+                                    <p>
+                                        Ambientado anos após os eventos terríveis do aclamado Resident Evil 7: Biohazard, a nova história começa com Ethan Winters e sua esposa, Mia, vivendo tranquilamente em um novo lugar, livres dos pesadelos do passado. Mas quando estavam começando a construir uma nova vida, ocorre novamente uma tragédia.                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="monster-hunter">
+                            <div class="row mt-5">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mhg-capa.jpg" alt="Capa Monster Hunter Generations">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter Generations</h5>
+                                    <p>
+                                        Em Monster Hunter Generations, a premissa é bastante simples: o jogador assume o papel de um caçador iniciante da Wycademy, cujo objetivo é evoluir para enfrentar quatro poderosas ameaças conhecidas como Fated Four.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mhs-capa.jpg" alt="Capa Monster Hunter Stories">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter Stories</h5>
+                                    <p>
+                                        Esse é um mundo onde homens e monstros existem. Aqueles que caçam os monstros são chamados hunters. Mas em um canto desse mundo de hunters, existem aqueles chamados riders que criam amizade e coexistem com monstros.                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mh10-capa.jpeg" alt="Capa Monster Hunter XX">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter XX</h5>
+                                    <p>
+                                        Quando uma tempestade de areia transporta a Tenente Artemis (Milla Jovovich) e sua unidade para esse mundo, os soldados ficam em choque, descobrindo que o novo ambiente é o hostil lar de diversas criaturas perigosas, imunes ao seu poder de fogo                                 </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mh-world-capa.jpg" alt="Capa Monster Hunter: World">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter: World</h5>
+                                    <p>
+                                        O Novo Mundo é um deserto indomável onde muitos monstros poderosos vagam, e onde os pesquisadores foram atraídos para descobrir novos mistérios. Várias frotas marítimas já foram enviadas para estabelecer bases de trabalho, a salvo de monstros, e as operações são lideradas pela Comissão de Pesquisa.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mh-world-iceborne-capa.png" alt="Capa Monster Hunter World: Iceborne">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter World: Iceborne</h5>
+                                    <p>
+                                        Monster Hunter World: Iceborne leva os caçadores a um novo e recém descoberto local gelado que quando completamente explorado, se tornará a maior região no World até agora.                                    </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mh-rise-capa.jpg" alt="Capa Monster Hunter Rise">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter Rise</h5>
+                                    <p>
+                                        O jogador controla um jovem caçador, cuja missão é proteger a Kamura Village depois do reaparecimento de Magnamalo e da horda dos chamados Rampage.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mhs2-capa.jpg" alt="Capa Monster Hunter Stories 2: Wings of Ruin">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter Stories 2: Wings of Ruin</h5>
+                                    <p>
+                                        A história de Monster Hunter Stories 2: Wings of Ruin começa com um toque simultâneo de despretensiosidade e grandeza. Você controla o protagonista, descendente do lendário montador de serpes chamado de Red, porém inicia sua jornada como um novato que está aprendendo a domar essas admiráveis criaturas.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/mhr-sunbreak-capa.jpg" alt="Capa Monster Hunter Rise: Sunbreak">
+                                    <h5 class="text-colored fw-bold mt-2">Monster Hunter Rise: Sunbreak</h5>
+                                    <p>
+                                        Monster Hunter Rise: Sunbreak é uma expansão do Monster Hunter Rise original. A expansão conta com jogabilidade aprimorada e novas mecânicas de combate ainda mais ágeis, novos monstros e locais de caça e um novo nível de dificuldade com as Missões do Ranque Mestre.                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="street-fighter">
+                            <div class="row mt-5">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/sf-30-capa.jpg" alt="Capa Street Fighter 30th Anniversary Collection">
+                                    <h5 class="text-colored fw-bold mt-2">Street Fighter 30th Anniversary Collection</h5>
+                                    <p>
+                                        Compete online* para reviveres a experiência arcade no modo Arcade ou joga com amigos na sala online em quatro dos mais clássicos jogos Street Fighter desta coleção. A celebração continua no Museum, onde tanto "historiadores" como fãs podem acompanhar a evolução de Street Fighter ao longo dos últimos 30 anos.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/sf5-capa.jpg" alt="Capa Street Fighter V: Champion Edition">
+                                    <h5 class="text-colored fw-bold mt-2">Street Fighter V: Champion Edition</h5>
+                                    <p>
+                                        Domine o ringue com Street Fighter™ V: Champion Edition, a versão mais robusta do aclamado jogo de luta! Escolha entre 40 lutadores diversos, 34 fases dinâmicas e mais de 200 trajes estilosos, lutando em uma variedade de modos solo e multijogador empolgantes.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/usf-capa.jpg" alt="Capa Ultra Street Fighter II: The Final Challengers">
+                                    <h5 class="text-colored fw-bold mt-2">Ultra Street Fighter II: The Final Challengers</h5>
+                                    <p>
+                                        Caracteriza uma linha estelar de personagens, incluindo todos os lutadores e chefes originais, os personagens adicionados em super street fighter ii, além das primeiras novidades em quase 20 anos: evil ryu e ken violento.                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/sf6-capa.jpg" alt="Capa Street Fighter 6">
+                                    <h5 class="text-colored fw-bold mt-2">Street Fighter 6</h5>
+                                    <p>
+                                        Street Fighter 6 é o próximo passo na evolução da série Street Fighter e conta com recursos de gameplay inovadores, além de visuais aprimorados em todos os aspectos do jogo.                                
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <section id="ultimas-noticias">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mt-5 mb-5">
+                        Últimas <span class="text-colored">Notícias</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card-text">
+                            <img src="./img/capcom-re4-carousel - Copia.jpg">
+                            <div class="card-body p-3">
+                                <h4 class="card-title section-title fs-5">Resident Evil 4 Remake acaba de ser lançado!</h4>
+                                <p class="card-text mt-2">
+                                    A espera acabou. Bebê águia foi localizada. Resident Evil 4 está disponível para Playstation 5, Playstation 4…
+                                </p>
+                                <a href="https://news.capcomusa.com/2023/03/24/resident-evil-4-is-out-now/" class="btn btn-warning">Leia Mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card-text">
+                            <img src="./img/cpcom-creators.png">
+                            <div class="card-body p-3">
+                                <h4 class="card-title section-title fs-5">Celebrando o Mês da Consciência Negra com a Capcom Creators</h4>
+                                <p class="card-text mt-2">
+                                    Gostaríamos de aproveitar este último dia de fevereiro para celebrar o Mês da História Negra e a comunidade Black Capcom Creators, que continua a ser uma força motriz para um mundo melhor com diversas vozes e vias de influência. Reserve um momento para ler sobre o que o Mês da Consciência Negra significa para eles abaixo.
+                                </p>
+                                <a href="https://news.capcomusa.com/2023/02/28/celebrating-black-history-month-with-capcom-creators/" class="btn btn-warning">Leia Mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card-text">
+                            <img src="./img/capcom-creators-2.jpg">
+                            <div class="card-body p-3">
+                                <h4 class="card-title section-title fs-5">Celebrando 1 ano da Capcom Creators</h4>
+                                <p class="card-text mt-2">
+                                    Há pouco mais de um ano, lançamos o programa Capcom Creators como uma forma de apoiar, crescer e compartilhar nosso apreço pela incrível comunidade de criadores de conteúdo. Estamos honrados com o interesse e a atenção que o programa recebeu em seus primeiros 12 meses e estamos dedicados a continuar a desenvolver os criadores da Capcom Creators...                            
+                                </p>
+                                <a href="https://news.capcomusa.com/2023/02/02/celebrating-one-year-of-capcom-creators/" class="btn btn-warning">Leia Mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form class="form">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control email-jquery" name="email">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored ">Seu telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control telefone-jquery" name="telefone">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" name="mensagem"></textarea>
+                                
+                                <button type="submit" class=" btn-warning mt-3 btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-c-circle-fill"></i>
+                                Copyright
+                            </h3>
+                            <p>
+                                &copy Capcom Co., Ltd. Todos os direitos reservados. 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="lib/js/jquery.mask.min.js"></script>
+    <script src="lib/js/jquery.validate.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

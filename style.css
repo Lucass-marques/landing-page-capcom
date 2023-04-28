@@ -1,0 +1,58 @@
+.section-title,
+.text-colored {
+    font-family: 'Sigmar', cursive;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-colored {
+    color: #2d4f9e;
+}
+
+header {
+    background-color: #Ccc;
+}
+
+.nav .nav-link.active {
+    background-color: #f2ca30;
+    color: #2d4f9e;
+}
+
+.nav-link,
+.nav-link:hover {
+    color: #2d4f9e;
+}
+
+.logos {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-container {
+    max-height: 80vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    max-height: 80vh;
+}
+
+#ultimas-noticias,
+#quem-somos,
+#fale-conosco {
+    background-color: #Ccc;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+
