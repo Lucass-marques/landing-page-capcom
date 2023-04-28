@@ -55,4 +55,15 @@ textarea {
     resize: none;
 }
 
+@media (max-width: 767px) {
+    .logos{
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logos {
+        max-width: 45%;
+    }
+}
 
